@@ -30,11 +30,11 @@ for i in range(1, 10):
 
 # print(len(finnal_all_data))
 #扩充后的all_data，直接总体随机采样得到valid_data
-valid_data = []
-
-for _ in range(4500):
-    temp = finnal_all_data[random.randint(0,90000)]
-    valid_data.append(temp)
+# valid_data = []
+valid_data = random.sample(finnal_all_data, 4500)
+# for _ in range(4500):
+#     temp = finnal_all_data[random.randint(0,90000)]
+#     valid_data.append(temp)
 
 
 # valid_data[random.randint(1, 10)] = random.sample(all_data[random.randint(1, 10)], 10)
