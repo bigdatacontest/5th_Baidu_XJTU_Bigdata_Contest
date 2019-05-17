@@ -53,6 +53,6 @@ def write_data(path, data_name):
 
 write_data("../data/finnal_all_data.txt", finnal_all_data)
 write_data("../data/train_data.txt", train_data)
-write_data("../data/valid_data", valid_data)
+write_data("../data/valid_data.txt", valid_data)
 
 
